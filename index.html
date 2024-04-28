@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.webp" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experiences</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm<span style="font-style: italic;"> Keerthika </span></h1>
+
+            </div>
+        </div>
+    </div>
+
+<!-- /-------- about --------/ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img.png" height=""alt="self image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Welcome to my portfolio! I'm Keerthika, a B.E. CSE student passionate about Web Development. With foundational knowledge in HTML, CSS, and JavaScript, alongside Python, C, and Java, I'm eager to embark on new challenges and translate ideas into impactful solutions.<br> As a fresher in web development, I'm committed to continuous learning and excited about the journey ahead. Let's connect and create something amazing together!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br><br>HTML | CSS | JavaScript</li>
+                            <li><span>Programming Languages</span><br><br>Java | C | Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2026</span><br>Prathyusha Engineering College <br>CGPA : 9.2</li>
+                            <li><span>2020 - 2022</span><br>Government Higher Secondary School <br>Score : 89.8%</li>
+                            <li><span>2019 - 2020</span><br>Sivanthi Aadhithnar Girls Hr. Sec. Sschool <br>Score : 86.4%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>March 10 2024 to April 10 2024</span><br>Codsoft Intern for Web Development</li>
+                            <li><span>Open to Work</span><br>Looking for an Internship</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------experiences-------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Experiences</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development Internship</h2>
+                    <br>
+                    <h2 style="font-style: italic;">Codsoft Intern</h2>
+                    <p>Interned at Bharat Intern for web development, gaining hands-on experience and enhancing skills in HTML, CSS, and JavaScript.</p>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>AI Internship</h2>
+                    <br>
+                    <h2 style="font-style: italic;">Cognizant</h2>
+                    <p>Completed AI Job Simulation Internship at Cognizant, gaining hands-on experience in AI projects, problem-solving, and industry-relevant skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!----- projects-->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work" >
+                    <img src="images/img1.png"alt="Portfolio">
+                    <div class="layer">
+                        <h2>Portfolio Website</h2>
+                        <p>Experience a responsive portfolio site, employing HTML, CSS, and JavaScript, delivering dynamic user engagement and showcasing skills and projects.</p>       
+                        <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img2.png" alt="Landing Page">
+                    <div class="layer">
+                        <h2>Landing Page</h2>
+                        <p>Designed a dynamic landing page using HTML/CSS showcasing Birla Planetarium's industrial visit for college students. Seamless, immersive experience.</p>
+                        <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                        <img src="images/img3.png" alt="Scientific Calculator">
+                        <div class="layer">
+                            <h2>Scientific Calculator</h2>
+                            <p>Fully functional scientific calculator developed with HTML, CSS, and JavaScript, featuring basic arithmetic and advanced scientific functions.</p>
+                            <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+ <!-- certificates -->
+ <div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="works-list">
+            <div class="works">
+                <img src="images/img4.png">
+                <div class="layers">
+                    <br>
+                    <h4>AI AWARE BADGE</h4>
+                    <p>Received AI Aware Badge - AI for All 2024, demonstrating understanding of artificial intelligence's impact.</p> 
+                    <a href="https://ai-for-all.in/#/badge?id=U2FsdGVkX1s1L2a3S4hRTS3pKCspfQOQ0s1L2a3S4hvpLaDxumeoQHQRvl4e1Q2u3A4l"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="works">
+                <img src="images/img5.png">
+                <div class="layers">
+                    <br>
+                    <h4>Chatgpt for beginners</h4> 
+                    <p>Obtained ChatGPT for Beginners certificate from Great Learning, covering foundational concepts in natural language processing.</p>
+                    <a href="https://drive.google.com/drive/folders/18bZVar2YSuNVYajws3i4JA7ySGhmqcTL"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="works">
+                <img src="images/img6.png">
+                <div class="layers">
+                    <br>
+                    <h4>Python Fundamentals For Beginners</h4> 
+                    <p>Python Fundamentals for Beginners certificate from Great Learning, covering essential concepts for programming proficiency.</p>
+                    <a href="https://drive.google.com/drive/folders/18bZVar2YSuNVYajws3i4JA7ySGhmqcTL"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="https://drive.google.com/drive/folders/18bZVar2YSuNVYajws3i4JA7ySGhmqcTL" target="_blank" class="btn">See more</a>
+    </div>
+   </div>
+    <!-- ---------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-1">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><i class="fa-solid fa-envelope"></i> keerthika16112005@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9003032551</p>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/keerthika60" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/KSD-T" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-2">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Keerthika : All rights reserved for portfolio content.</p>
+
+        </div>
+    </div>
+     <!-- javascript -->
+ <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+ <script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+ </script>
+
+</body>
+</html>
